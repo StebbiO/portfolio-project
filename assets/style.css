@@ -152,6 +152,8 @@ header nav ul li a {
     opacity: 1.0;
 }
 
+/* contact styling */
+
 .contact {
     color: var(--splash);
     display: flex;
@@ -165,4 +167,104 @@ header nav ul li a {
 
 .contact p {
     padding-right: 350px;
+}
+
+/* Media Query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+   header nav ul li a {
+       font-size: 21px;
+   }
+
+
+    .bio img {
+        padding: 5px;
+        position: relative;
+        left: 7px;
+    }
+
+    .bio p {
+        width: 80%;
+        letter-spacing: 2px;
+        text-align: center;
+        align-self: center;
+        padding-left: 40px;
+        position: relative;
+        right: 30px;
+    }
+
+    .contact p {
+        padding-right: 150px;
+        font-size: 21px;
+    }
+
+    .contact a {
+        padding-right: 50px;
+        font-size: 21px;
+    }
+}    
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    header nav ul {
+        position: relative;
+        left: 45px;
+    }
+
+    .contact p {
+        padding-right: 50px;
+    }
+
+    .contact a {
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 30px;
+    }
+
+    header nav ul {
+        position: relative;
+        left: 0;
+    }
+
+    
+    header nav ul li a {
+        font-size: 16px;
+    }
+
+    .bio img {
+        left: 0px;
+    }
+
+    .bio p {
+        font-size: 12px;
+    }
+
+    .section-border {
+        font-size: 18px;
+    }
+
+    .app-text {
+        font-size: 10px;
+    }
+
+    .contact p {
+        padding-right: 20px;
+        font-size: 16px;
+    }
+
+    .contact a {
+        font-size: 16px;
+    }
 }
