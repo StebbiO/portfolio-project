@@ -87,7 +87,7 @@ header nav ul li a {
     padding-left: 50px;
 }
 
-/* Applications styling */
+/* Application styles */
 .applications{
     background-color:var(--light);
     width: 100%;
@@ -152,8 +152,7 @@ header nav ul li a {
     opacity: 1.0;
 }
 
-/* contact styling */
-
+/* contact styles */
 .contact {
     color: var(--splash);
     display: flex;
@@ -169,7 +168,7 @@ header nav ul li a {
     padding-right: 350px;
 }
 
-/* Media Query for smaller desktop screens and smaller */
+/* Media query for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
    header nav ul li a {
        font-size: 21px;
@@ -203,6 +202,7 @@ header nav ul li a {
     }
 }    
 
+/* Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
     header h1 {
         display: flex;
@@ -224,6 +224,7 @@ header nav ul li a {
     }
 }
 
+/* Media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {
     header {
         padding: 15px;
